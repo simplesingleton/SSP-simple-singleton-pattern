@@ -41,7 +41,7 @@ This method initialize all modules from your application.
     SSP.init();
     
 <br>
-Also is possible initialize a once module or multiples using comas.
+Also is possible initialize a module per time, or multiples using commas.
 
     SSP.init(SSP.MyModule());
     
