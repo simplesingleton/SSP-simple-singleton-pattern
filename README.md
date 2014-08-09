@@ -50,87 +50,92 @@ Also is possible initialize a once module or multiples using comas.
     
 
 ### > .setUp( )
-
+----
 <br>
 
 SetUp's a Main method, it run aways when the father module is called.
 
-  var SSP = SSP || {};
-  
-  SSP.MyModule = {
-    setUp: function() {
-      console.debug("My SSP module is runing!");
+    var SSP = SSP || {};
+    
+    SSP.MyModule = {
+      setUp: function() {
+        console.debug("My SSP module is runing!");
+      }
     }
-  }
 
 ### > .delegate( )
+----
 
 <br>
 
 SetUp's a Main method, it run aways when the father module is called.
 
-  var SSP = SSP || {};
-  
-  SSP.MyModule = {
-    setUp: function() {
-      console.debug("My SSP module is runing!");
+    var SSP = SSP || {};
+    
+    SSP.MyModule = {
+      setUp: function() {
+        console.debug("My SSP module is runing!");
+      }
     }
-  }
 
 ### > .readModule( )
+----
 
 <br>
 
 SetUp's a Main method, it run aways when the father module is called.
 
-  var SSP = SSP || {};
-  
-  SSP.MyModule = {
-    setUp: function() {
-      console.debug("My SSP module is runing!");
+    var SSP = SSP || {};
+    
+    SSP.MyModule = {
+      setUp: function() {
+        console.debug("My SSP module is runing!");
+      }
     }
-  }
 
 ### > .getByNamespace( )
+----
 
 <br>
 
 SetUp's a Main method, it run aways when the father module is called.
 
-  var SSP = SSP || {};
-  
-  SSP.MyModule = {
-    setUp: function() {
-      console.debug("My SSP module is runing!");
+    var SSP = SSP || {};
+    
+    SSP.MyModule = {
+      setUp: function() {
+        console.debug("My SSP module is runing!");
+      }
     }
-  }
 
 
 ### > .applyByNamespace( )
+----
 
 <br>
 
 SetUp's a Main method, it run aways when the father module is called.
 
-  var SSP = SSP || {};
-  
-  SSP.MyModule = {
-    setUp: function() {
-      console.debug("My SSP module is runing!");
+    var SSP = SSP || {};
+    
+    SSP.MyModule = {
+      setUp: function() {
+        console.debug("My SSP module is runing!");
+      }
     }
-  }
   
 ### > .initModuleByNamespace( )
+----
 
 <br>
 
 SetUp's a Main method, it run aways when the father module is called.
 
-  var SSP = SSP || {};
-  
-  SSP.MyModule = {
-    setUp: function() {
-      console.debug("My SSP module is runing!");
+    var SSP = SSP || {};
+    
+    SSP.MyModule = {
+      setUp: function() {
+        console.debug("My SSP module is runing!");
+      }
     }
-  }
  
