@@ -10,13 +10,13 @@ Comming
 
 ## Available Methods
 
-  * [init]('#-init-')
-  * [setUp]('#-setUp-')
-  * [delegate]('#-delegate-')
-  * [readModule]('#-readModule-')
-  * [getByNamespace]('#-getByNamespace-')
-  * [applyByNamespace]('#-applyByNamespace-')
-  * [initModuleByNamespace]('#-initModuleByNamespace-')
+  * <a href="#-init-">init</a>
+  * <a href="#-setUp-">setUp</a>
+  * <a href="#-delegate-">delegate</a>
+  * <a href="#-readModule-">readModule</a>
+  * <a href="#-getByNamespace-">getByNamespace</a>
+  * <a href="#-applyByNamespace-">applyByNamespace</a>
+  * <a href="#-initModuleByNamespace-">initModuleByNamespace</a>
   
 
 ## Team
