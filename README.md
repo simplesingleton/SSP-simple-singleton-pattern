@@ -11,12 +11,12 @@ Comming
 ## Available Methods
 
   * [init](#-init-)
-  * [setUp](#-setUp-)
+  * [setUp](#-setup-)
   * [delegate](#-delegate-)
-  * [readModule](#-readModule-)
-  * [getByNamespace](#-getByNamespace-)
-  * [applyByNamespace](#-applyByNamespace-)
-  * [initModuleByNamespace](#-initModuleByNamespace-)
+  * [readModule](#-readmodule-)
+  * [getByNamespace](#-getbynamespace-)
+  * [applyByNamespace](#-applybynamespace-)
+  * [initModuleByNamespace](#-initmodulebynamespace-)
   
 
 ## Team
