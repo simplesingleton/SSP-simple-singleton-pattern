@@ -10,13 +10,13 @@ Comming
 
 ## Available Methods
 
-  * <a href="#-init-">init</a>
-  * <a href="#-setUp-">setUp</a>
-  * <a href="#-delegate-">delegate</a>
-  * <a href="#-readModule-">readModule</a>
-  * <a href="#-getByNamespace-">getByNamespace</a>
-  * <a href="#-applyByNamespace-">applyByNamespace</a>
-  * <a href="#-initModuleByNamespace-">initModuleByNamespace</a>
+  * [init]('https://github.com/simplesingleton/SSP-simple-singleton-pattern#team')
+  * [setUp]('https://github.com/simplesingleton/SSP-simple-singleton-pattern#team')
+  * [delegate]('https://github.com/simplesingleton/SSP-simple-singleton-pattern#team')
+  * [readModule]('https://github.com/simplesingleton/SSP-simple-singleton-pattern#team')
+  * [getByNamespace]('https://github.com/simplesingleton/SSP-simple-singleton-pattern#team')
+  * [applyByNamespace]('https://github.com/simplesingleton/SSP-simple-singleton-pattern#team')
+  * [initModuleByNamespace]('https://github.com/simplesingleton/SSP-simple-singleton-pattern#team')
   
 
 ## Team
