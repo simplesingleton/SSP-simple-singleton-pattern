@@ -10,13 +10,13 @@ Comming
 
 ## Available Methods
 
-  * [init]('s')
-  * [setUp]('')
-  * [delegate]('')
-  * [readModule]('')
-  * [getByNamespace]('')
-  * [applyByNamespace]('')
-  * [initModuleByNamespace]('')
+  * [init]('#-init-')
+  * [setUp]('#-setUp-')
+  * [delegate]('#-delegate-')
+  * [readModule]('#-readModule-')
+  * [getByNamespace]('#-getByNamespace-')
+  * [applyByNamespace]('#-applyByNamespace-')
+  * [initModuleByNamespace]('#-initModuleByNamespace-')
   
 
 ## Team
