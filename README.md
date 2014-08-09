@@ -1,16 +1,15 @@
 The Simple Singleton Pattern
-=============================
 ---
 
 
 ## What's it?
----
+
 
 Comming 
 
 
 ## Available Methods
----
+
   * [init]('s')
   * [setUp]('')
   * [delegate]('')
@@ -22,7 +21,7 @@ Comming
 <br>
 
 ## Team
----
+
 A simple table looks like this:
 
 Dennis Calazans | Rodolfo Dias 
@@ -34,7 +33,6 @@ Dennis Calazans | Rodolfo Dias
 <br>
 
 ## Methods
----   
   
 ### > .init( )
 
