@@ -34,8 +34,7 @@ Dennis Calazans | Rodolfo Dias
 ## Methods
   
 ### > .init( )
-
-<br>
+----
 
 This method initialize all modules from your application. 
 
@@ -51,7 +50,6 @@ Also is possible initialize a once module or multiples using comas.
 
 ### > .setUp( )
 ----
-<br>
 
 SetUp's a Main method, it run aways when the father module is called.
 
@@ -66,8 +64,6 @@ SetUp's a Main method, it run aways when the father module is called.
 ### > .delegate( )
 ----
 
-<br>
-
 SetUp's a Main method, it run aways when the father module is called.
 
     var SSP = SSP || {};
@@ -81,8 +77,6 @@ SetUp's a Main method, it run aways when the father module is called.
 ### > .readModule( )
 ----
 
-<br>
-
 SetUp's a Main method, it run aways when the father module is called.
 
     var SSP = SSP || {};
@@ -95,8 +89,6 @@ SetUp's a Main method, it run aways when the father module is called.
 
 ### > .getByNamespace( )
 ----
-
-<br>
 
 SetUp's a Main method, it run aways when the father module is called.
 
@@ -112,8 +104,6 @@ SetUp's a Main method, it run aways when the father module is called.
 ### > .applyByNamespace( )
 ----
 
-<br>
-
 SetUp's a Main method, it run aways when the father module is called.
 
     var SSP = SSP || {};
@@ -126,8 +116,6 @@ SetUp's a Main method, it run aways when the father module is called.
   
 ### > .initModuleByNamespace( )
 ----
-
-<br>
 
 SetUp's a Main method, it run aways when the father module is called.
 
