@@ -21,9 +21,9 @@ Comming
 
 ## Team
 
-A simple table looks like this:
+> A heavy team:
 
-Dennis Calazans (Father) | Rodolfo Dias 
+Dennis Calazans | Rodolfo Dias 
 ------------  | ------------- |
 <a href="#">![Mou icon](http://mouapp.com/Mou_128.png)</a> | <a href="#">![Mou icon](http://mouapp.com/Mou_128.png)</a>|
 [@dennis]()   | [@rmdias]()|
