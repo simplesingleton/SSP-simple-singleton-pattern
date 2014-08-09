@@ -18,7 +18,6 @@ Comming
   * [applyByNamespace]('')
   * [initModuleByNamespace]('')
   
-<br>
 
 ## Team
 
@@ -26,7 +25,7 @@ A simple table looks like this:
 
 Dennis Calazans | Rodolfo Dias 
 ------------  | ------------- |
-![Mou icon](http://mouapp.com/Mou_128.png) | ![Mou icon](http://mouapp.com/Mou_128.png)|
+<a href="#">![Mou icon](http://mouapp.com/Mou_128.png)</a> | <a href="#">![Mou icon](http://mouapp.com/Mou_128.png)</a>|
 [@dennis]()   | [@rmdias]()|
 
 
