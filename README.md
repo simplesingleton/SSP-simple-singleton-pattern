@@ -16,10 +16,43 @@ Dennis Calazans | Rodolfo Dias
 
 `Comming`
 
+## SSP Usage
 
-## Creating a SSP Module
+### Call the SSP file
+    
+    <script src="SSP.js"></script>
 
-`Comming` 
+
+### Creating a SSP Module
+
+    // SSP.MyModule.js
+
+    var SSP = SSP || {};
+    
+    SSP.MyModule = {
+      setUp: function() {
+        console.debug("My SSP module is runing!");
+      }
+    }
+
+### Creating a SSP Child Module
+
+    // SSP.MyModule.Child.js
+    
+    var SSP = SSP || {};
+        SSP.MyModule = SSP.MyModule || {};
+
+    SSP.MyModule.Child = {
+      setUp: function() {
+        console.debug("My SSP module is runing!");
+      }
+    }
+
+## Incorporating Files
+
+    <script src="SSP.js"></script>
+    <script src="SSP.MyModule.js"></script>
+    <script src="SSP.MyModule.Child.js"></script>
 
 
 ## Available Methods
@@ -55,14 +88,7 @@ Also is possible initialize a module per time, or multiples using commas.
 
 SetUp is a Main method. It run always when the father's module is called.
 
-
-    var SSP = SSP || {};
-    
-    SSP.MyModule = {
-      setUp: function() {
-        console.debug("My SSP module is runing!");
-      }
-    }
+    SSP.MyModule.setUp();
 
 ### > .delegate( )
 ----
