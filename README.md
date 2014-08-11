@@ -1,5 +1,6 @@
 The Simple Singleton Pattern
 ---
+> Created by [@denniscalazans](https://github.com/denniscalazans)
 
 
 ## What's it?
@@ -21,12 +22,10 @@ Comming
 
 ## Team
 
-> A heavy team:
-
 Dennis Calazans | Rodolfo Dias 
 ------------  | ------------- |
 <a href="#">![Mou icon](http://mouapp.com/Mou_128.png)</a> | <a href="#">![Mou icon](http://mouapp.com/Mou_128.png)</a>|
-[@dennis]()   | [@rmdias]()|
+[@denniscalazans](https://github.com/denniscalazans)   | [@rmdias](https://github.com/rmdias)|
 
 
 <br>
@@ -51,7 +50,8 @@ Also is possible initialize a module per time, or multiples using commas.
 ### > .setUp( )
 ----
 
-SetUp's a Main method, it run aways when the father module is called.
+SetUp is a Main method. It run always when the father's module is called.
+
 
     var SSP = SSP || {};
     
