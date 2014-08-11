@@ -6,7 +6,12 @@ The Simple Singleton Pattern
 ## What's it?
 
 
-Comming 
+`Comming`
+
+
+## Creating a SSP Module
+
+`Comming` 
 
 
 ## Available Methods
