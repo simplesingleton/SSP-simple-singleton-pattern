@@ -3,6 +3,16 @@ The Simple Singleton Pattern
 > Created by [@denniscalazans](https://github.com/denniscalazans)
 
 
+## Team
+
+Dennis Calazans | Rodolfo Dias 
+:------------:  | :-------------: |
+<a href="#">![Dennis Calazans](https://avatars2.githubusercontent.com/u/28112?v=2&s=128)</a> | <a href="#">![Rodolfo Dias](https://avatars2.githubusercontent.com/u/2057971?v=2&s=128)</a>|
+[@denniscalazans](https://github.com/denniscalazans)   | [@rmdias](https://github.com/rmdias)|
+
+
+<br>
+
 ## What's it?
 
 
@@ -122,12 +132,3 @@ SetUp's a Main method, it run aways when the father module is called.
       }
     }
  
-## Team
-
-Dennis Calazans | Rodolfo Dias 
-:------------:  | :-------------: |
-<a href="#">![Dennis Calazans](https://avatars2.githubusercontent.com/u/28112?v=2&s=128)</a> | <a href="#">![Rodolfo Dias](https://avatars2.githubusercontent.com/u/2057971?v=2&s=128)</a>|
-[@denniscalazans](https://github.com/denniscalazans)   | [@rmdias](https://github.com/rmdias)|
-
-
-<br>
