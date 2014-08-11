@@ -24,7 +24,7 @@ Comming
 
 Dennis Calazans | Rodolfo Dias 
 :------------:  | :-------------: |
-<a href="#">![Mou icon](http://mouapp.com/Mou_128.png)</a> | <a href="#">![Mou icon](http://mouapp.com/Mou_128.png)</a>|
+<a href="#">![Dennis Calazans](https://avatars2.githubusercontent.com/u/28112?v=2&s=128)</a> | <a href="#">![Rodolfo Dias](https://avatars2.githubusercontent.com/u/2057971?v=2&s=128)</a>|
 [@denniscalazans](https://github.com/denniscalazans)   | [@rmdias](https://github.com/rmdias)|
 
 
