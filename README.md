@@ -23,7 +23,7 @@ Comming
 ## Team
 
 Dennis Calazans | Rodolfo Dias 
-------------  | ------------- |
+:------------:  | :-------------: |
 <a href="#">![Mou icon](http://mouapp.com/Mou_128.png)</a> | <a href="#">![Mou icon](http://mouapp.com/Mou_128.png)</a>|
 [@denniscalazans](https://github.com/denniscalazans)   | [@rmdias](https://github.com/rmdias)|
 
