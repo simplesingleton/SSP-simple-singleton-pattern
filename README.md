@@ -69,39 +69,21 @@ SetUp is a Main method. It run always when the father's module is called.
 
 SetUp's a Main method, it run aways when the father module is called.
 
-    var SSP = SSP || {};
-    
-    SSP.MyModule = {
-      setUp: function() {
-        console.debug("My SSP module is runing!");
-      }
-    }
+    SSP.delegate(scope, method);
 
 ### > .readModule( )
 ----
 
 SetUp's a Main method, it run aways when the father module is called.
 
-    var SSP = SSP || {};
-    
-    SSP.MyModule = {
-      setUp: function() {
-        console.debug("My SSP module is runing!");
-      }
-    }
+    SSP.readModule(Module);
 
 ### > .getByNamespace( )
 ----
 
 SetUp's a Main method, it run aways when the father module is called.
 
-    var SSP = SSP || {};
-    
-    SSP.MyModule = {
-      setUp: function() {
-        console.debug("My SSP module is runing!");
-      }
-    }
+    SSP.initModuleByNamespace("namespace");
 
 
 ### > .applyByNamespace( )
@@ -109,24 +91,13 @@ SetUp's a Main method, it run aways when the father module is called.
 
 SetUp's a Main method, it run aways when the father module is called.
 
-    var SSP = SSP || {};
-    
-    SSP.MyModule = {
-      setUp: function() {
-        console.debug("My SSP module is runing!");
-      }
-    }
-  
+    SSP.getByNamespace("namespace");
+
 ### > .initModuleByNamespace( )
 ----
 
 SetUp's a Main method, it run aways when the father module is called.
 
-    var SSP = SSP || {};
+    SSP.applyByNamespace("nameSpace", params);
+
     
-    SSP.MyModule = {
-      setUp: function() {
-        console.debug("My SSP module is runing!");
-      }
-    }
- 
