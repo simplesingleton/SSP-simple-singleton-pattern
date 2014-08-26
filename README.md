@@ -73,17 +73,17 @@ Dennis Calazans | Rodolfo Dias
 
 All modules have a property called namespace that returning `string` the name of module.
 
-  var SSP = SSP || {};
+    var SSP = SSP || {};
   
-  SSP.MyModule = {
-    setUp: function() {
-      var self = this;
+    SSP.MyModule = {
+      setUp: function() {
+        var self = this;
       
-      console.debug(self._nameSpace);
+        console.debug(self._nameSpace);
       
-    // return -> "SSP.MyModule"
-       }
-   }
+        // return -> "SSP.MyModule"
+      }
+    }
 
   
 ### > .init( )
