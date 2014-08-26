@@ -1,5 +1,8 @@
 The Simple Singleton Pattern
 ---
+
+![The Simple Singleton Pattern - A solution to many problems](https://raw.githubusercontent.com/simplesingleton/SSP-simple-singleton-pattern/master/images/simple-singleton-pattern-image.png)
+
 > Created by [@denniscalazans](https://github.com/denniscalazans)
 
 
