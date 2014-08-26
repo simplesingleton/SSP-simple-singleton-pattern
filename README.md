@@ -1,10 +1,7 @@
-<!-- The Simple Singleton Pattern -->
-
-![The Simple Singleton Pattern - A solution to many problems](https://raw.githubusercontent.com/simplesingleton/SSP-simple-singleton-pattern/master/images/simple-singleton-pattern-image.png)
+The Simple Singleton Pattern
 ---
 
-<!-- > Created by [@denniscalazans](https://github.com/denniscalazans) -->
-
+![The Simple Singleton Pattern - A solution to many problems](https://raw.githubusercontent.com/simplesingleton/SSP-simple-singleton-pattern/master/images/simple-singleton-pattern-image.png)
 
 ## Team
 
@@ -69,7 +66,25 @@ Dennis Calazans | Rodolfo Dias
   * [initModuleByNamespace](#-initmodulebynamespace-)
   
 
-## Methods
+## Properties and Methods
+
+### > _namespace
+----
+
+All modules have a property called namespace that returning `string` the name of module.
+
+  var SSP = SSP || {};
+  
+  SSP.MyModule = {
+    setUp: function() {
+      var self = this;
+      
+      console.debug(self._nameSpace);
+      
+    // return -> "SSP.MyModule"
+       }
+   }
+
   
 ### > .init( )
 ----
@@ -93,39 +108,47 @@ SetUp is a Main method. It run always when the father's module is called.
 
     SSP.MyModule.setUp();
 
-### > .delegate( )
+### > .delegate( scope, method )
 ----
 
 SetUp's a Main method, it run aways when the father module is called.
 
     SSP.delegate(scope, method);
 
-### > .readModule( )
+### > .readModule( Module )
 ----
 
-SetUp's a Main method, it run aways when the father module is called.
+Using `SSP.readModule(Module);` you can run a module that's located in other module/part from your application. For example: 
 
-    SSP.readModule(Module);
+    SSP.readModule(SSP.MyModule);
+    
+    SSP.readModule(SSP.MyOtherModule.Child);
 
-### > .getByNamespace( )
+### > .getByNamespace( "namespace" )
 ----
 
-SetUp's a Main method, it run aways when the father module is called.
+`SSP.getByNamespace( "namespace" )` is used to return a object module using your namespace in `string`. <br>
+> Using this method you don't will run the module called, this module only return the object module and the features it.
 
-    SSP.initModuleByNamespace("namespace");
+    SSP.initModuleByNamespace("SSP.MyModule");
+    
+    // return - > Object {setUp: function, Child: function}
 
 
-### > .applyByNamespace( )
+
+### > .applyByNamespace( "namespace" )
 ----
 
 SetUp's a Main method, it run aways when the father module is called.
 
     SSP.getByNamespace("namespace");
+    
 
-### > .initModuleByNamespace( )
+### > .initModuleByNamespace( "nameSpace", params )
 ----
 
-SetUp's a Main method, it run aways when the father module is called.
+Using that method you will run the called module using `_namespace`.
+
 
     SSP.applyByNamespace("nameSpace", params);
 
