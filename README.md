@@ -20,7 +20,7 @@ Dennis Calazans | Rodolfo Dias
 
 ### Call the SSP file
     
-    <script src="SSP.js"></script>
+    <script src="js/SSP.js"></script>
 
 
 ### Creating a SSP Module
@@ -50,9 +50,9 @@ Dennis Calazans | Rodolfo Dias
 
 ## Incorporating Files
 
-    <script src="SSP.js"></script>
-    <script src="SSP.MyModule.js"></script>
-    <script src="SSP.MyModule.Child.js"></script>
+    <script src="js/SSP.js"></script>
+    <script src="js/SSP.MyModule.js"></script>
+    <script src="js/SSP.MyModule.Child.js"></script>
 
 
 ## Available Methods
@@ -76,11 +76,11 @@ This method initialize all modules from your application.
     SSP.init();
     
 <br>
-Also is possible initialize a module per time, or multiples using commas.
+Also is possible initialize a module per time calling by module name, and multiples modules using commas.
 
-    SSP.init(SSP.MyModule());
+    SSP.init(SSP.MyModule);
     
-    SSP.init(SSP.MyModule(), SSP.MyOtherModule());
+    SSP.init(SSP.MyModule, SSP.MyOtherModule);
     
 
 ### > .setUp( )
