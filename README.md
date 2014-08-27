@@ -128,8 +128,7 @@ Using `SSP.readModule(Module);` you can run a module that's located in other mod
 ----
 
 `SSP.getByNamespace( "namespace" )` is used to return a object module using your namespace in `string`. <br>
-######Using this method you don't will run the module called, this module only return the object module and the features it. 
-<br>
+* Using this method you don't will run the module called, this module only return the object module and the features it. 
 
     SSP.initModuleByNamespace("SSP.MyModule");
     
