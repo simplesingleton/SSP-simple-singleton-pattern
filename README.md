@@ -73,17 +73,17 @@ Dennis Calazans | Rodolfo Dias
 
 All modules have a property called namespace that returning `string` the name of module.
 
-    var SSP = SSP || {};
+  var SSP = SSP || {};
   
-    SSP.MyModule = {
-      setUp: function() {
-        var self = this;
+  SSP.MyModule = {
+    setUp: function() {
+      var self = this;
       
-        console.debug(self._nameSpace);
+      console.debug(self._nameSpace);
       
-        // return -> "SSP.MyModule"
-      }
-    }
+    // return -> "SSP.MyModule"
+       }
+   }
 
   
 ### > .init( )
@@ -128,7 +128,8 @@ Using `SSP.readModule(Module);` you can run a module that's located in other mod
 ----
 
 `SSP.getByNamespace( "namespace" )` is used to return a object module using your namespace in `string`. <br>
-> Using this method you don't will run the module called, this module only return the object module and the features it.
+######Using this method you don't will run the module called, this module only return the object module and the features it. 
+<br>
 
     SSP.initModuleByNamespace("SSP.MyModule");
     
