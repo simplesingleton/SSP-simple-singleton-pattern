@@ -162,6 +162,6 @@ SSP.getByNamespace("namespace");
 Using that method you will run the called module using `_namespace`.
 
 ```javascript
-    SSP.applyByNamespace("nameSpace", params);
+SSP.applyByNamespace("nameSpace", params);
 ```
     
