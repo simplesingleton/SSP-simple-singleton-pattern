@@ -26,36 +26,38 @@ Dennis Calazans | Rodolfo Dias
 ### Creating a SSP Module
 ```javascript
 
-    // SSP.MyModule.js
+  // SSP.MyModule.js
 
-    var SSP = SSP || {};
-    
-    SSP.MyModule = {
-      setUp: function() {
-        console.debug("My SSP module is runing!");
-      }
+  var SSP = SSP || {};
+  
+  SSP.MyModule = {
+    setUp: function() {
+      console.debug("My SSP module is runing!");
     }
+  }
 ```
 
 ### Creating a SSP Child Module
+```javascript
 
-    // SSP.MyModule.Child.js
-    
-    var SSP = SSP || {};
-        SSP.MyModule = SSP.MyModule || {};
+  // SSP.MyModule.Child.js
+  
+  var SSP = SSP || {};
+      SSP.MyModule = SSP.MyModule || {};
 
-    SSP.MyModule.Child = {
-      setUp: function() {
-        console.debug("My SSP module is runing!");
-      }
+  SSP.MyModule.Child = {
+    setUp: function() {
+      console.debug("My SSP module is runing!");
     }
-
+  }
+```
 ## Incorporating Files
+```javascript
 
     <script src="js/SSP.js"></script>
     <script src="js/SSP.MyModule.js"></script>
     <script src="js/SSP.MyModule.Child.js"></script>
-
+```
 
 ## Available Methods
 
