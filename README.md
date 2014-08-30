@@ -121,7 +121,7 @@ SSP.MyModule.setUp();
 SetUp's a Main method, it run aways when the father module is called.
 ```javascript
 
-SSP.delegate(scope, method);
+SSP.delegate("scope, method");
 ```
 
 ### > .readModule( Module )
@@ -144,7 +144,7 @@ Using this method you don't will run the module called, this module only return 
 ```javascript
 SSP.initModuleByNamespace("SSP.MyModule");
 
-return - > Object {setUp: function, Child: function}`
+return - > Object {setUp: function, Child: function}
 ```
 
 ### > .applyByNamespace( "namespace" )
