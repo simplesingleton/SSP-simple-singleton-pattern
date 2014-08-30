@@ -24,6 +24,7 @@ Dennis Calazans | Rodolfo Dias
 
 
 ### Creating a SSP Module
+```javascript
 
     // SSP.MyModule.js
 
@@ -34,6 +35,7 @@ Dennis Calazans | Rodolfo Dias
         console.debug("My SSP module is runing!");
       }
     }
+```
 
 ### Creating a SSP Child Module
 
