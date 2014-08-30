@@ -75,7 +75,6 @@ SSP.MyModule.Child = {
 ----
 
 All modules have a property called namespace that returning `string` the name of module.
-
 ```javascript
 
 var SSP = SSP || {};
@@ -89,20 +88,18 @@ SSP.MyModule = {
     // return -> "SSP.MyModule"
   }
 }
-
 ```
 
 ### > .init( )
 ----
 
 This method initialize all modules from your application. 
-
 ```javascript
+
 SSP.init();
 ```   
 <br>
 Also is possible initialize a module per time calling by module name, and multiples modules using commas.
-
 ```javascript
 
 SSP.init(SSP.MyModule);
@@ -114,16 +111,16 @@ SSP.init(SSP.MyModule, SSP.MyOtherModule);
 ----
 
 SetUp is a Main method. It run always when the father's module is called.
-
 ```javascript
+
 SSP.MyModule.setUp();
 ```
 ### > .delegate( scope, method )
 ----
 
 SetUp's a Main method, it run aways when the father module is called.
-
 ```javascript
+
 SSP.delegate(scope, method);
 ```
 
@@ -131,8 +128,8 @@ SSP.delegate(scope, method);
 ----
 
 Using `SSP.readModule(Module);` you can run a module that's located in other module/part from your application. For example: 
-
 ```javascript
+
 SSP.readModule(SSP.MyModule);
 
 SSP.readModule(SSP.MyOtherModule.Child);
