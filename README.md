@@ -121,7 +121,7 @@ SSP.MyModule.setUp();
 SetUp's a Main method, it run aways when the father module is called.
 ```javascript
 
-SSP.delegate("scope, method");
+SSP.delegate(scope, method);
 ```
 
 ### > .readModule( Module )
