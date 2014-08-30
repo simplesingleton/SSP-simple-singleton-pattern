@@ -19,44 +19,43 @@ Dennis Calazans | Rodolfo Dias
 ## SSP Usage
 
 ### Call the SSP file
-    
-    <script src="js/SSP.js"></script>
-
+```html
+  <script src="js/SSP.js"></script>
+```
 
 ### Creating a SSP Module
 ```javascript
 
-  // SSP.MyModule.js
+// SSP.MyModule.js
 
-  var SSP = SSP || {};
-  
-  SSP.MyModule = {
-    setUp: function() {
-      console.debug("My SSP module is runing!");
-    }
+var SSP = SSP || {};
+
+SSP.MyModule = {
+  setUp: function() {
+    console.debug("My SSP module is runing!");
   }
+}
 ```
 
 ### Creating a SSP Child Module
 ```javascript
 
-  // SSP.MyModule.Child.js
-  
-  var SSP = SSP || {};
-      SSP.MyModule = SSP.MyModule || {};
+// SSP.MyModule.Child.js
 
-  SSP.MyModule.Child = {
-    setUp: function() {
-      console.debug("My SSP module is runing!");
-    }
+var SSP = SSP || {};
+    SSP.MyModule = SSP.MyModule || {};
+
+SSP.MyModule.Child = {
+  setUp: function() {
+    console.debug("My SSP module is runing!");
   }
+}
 ```
 ## Incorporating Files
-```javascript
-
-    <script src="js/SSP.js"></script>
-    <script src="js/SSP.MyModule.js"></script>
-    <script src="js/SSP.MyModule.Child.js"></script>
+```html
+<script src="js/SSP.js"></script>
+<script src="js/SSP.MyModule.js"></script>
+<script src="js/SSP.MyModule.Child.js"></script>
 ```
 
 ## Available Methods
@@ -77,56 +76,67 @@ Dennis Calazans | Rodolfo Dias
 
 All modules have a property called namespace that returning `string` the name of module.
 
-    var SSP = SSP || {};
-  
-    SSP.MyModule = {
-      setUp: function() {
-        var self = this;
-      
-        console.debug(self._nameSpace);
-      
-        // return -> "SSP.MyModule"
-      }
-    }
+```javascript
 
+var SSP = SSP || {};
+
+SSP.MyModule = {
+  setUp: function() {
+    var self = this;
   
+    console.debug(self._nameSpace);
+  
+    // return -> "SSP.MyModule"
+  }
+}
+
+```
+
 ### > .init( )
 ----
 
 This method initialize all modules from your application. 
 
-    SSP.init();
-    
+```javascript
+SSP.init();
+```   
 <br>
 Also is possible initialize a module per time calling by module name, and multiples modules using commas.
 
-    SSP.init(SSP.MyModule);
-    
-    SSP.init(SSP.MyModule, SSP.MyOtherModule);
-    
+```javascript
 
+SSP.init(SSP.MyModule);
+
+SSP.init(SSP.MyModule, SSP.MyOtherModule);
+   
+```
 ### > .setUp( )
 ----
 
 SetUp is a Main method. It run always when the father's module is called.
 
-    SSP.MyModule.setUp();
-
+```javascript
+SSP.MyModule.setUp();
+```
 ### > .delegate( scope, method )
 ----
 
 SetUp's a Main method, it run aways when the father module is called.
 
-    SSP.delegate(scope, method);
+```javascript
+SSP.delegate(scope, method);
+```
 
 ### > .readModule( Module )
 ----
 
 Using `SSP.readModule(Module);` you can run a module that's located in other module/part from your application. For example: 
 
-    SSP.readModule(SSP.MyModule);
-    
-    SSP.readModule(SSP.MyOtherModule.Child);
+```javascript
+SSP.readModule(SSP.MyModule);
+
+SSP.readModule(SSP.MyOtherModule.Child);
+```
 
 ### > .getByNamespace( "namespace" )
 ----
@@ -134,24 +144,27 @@ Using `SSP.readModule(Module);` you can run a module that's located in other mod
 `SSP.getByNamespace( "namespace" )` is used to return a object module using your namespace in `string`. <br>
 Using this method you don't will run the module called, this module only return the object module and the features it.
     
-    SSP.initModuleByNamespace("SSP.MyModule");
+```javascript
+SSP.initModuleByNamespace("SSP.MyModule");
 
-    return - > Object {setUp: function, Child: function}`
+return - > Object {setUp: function, Child: function}`
+```
 
 ### > .applyByNamespace( "namespace" )
 ----
 
 SetUp's a Main method, it run aways when the father module is called.
 
-    SSP.getByNamespace("namespace");
-    
+```javascript
+SSP.getByNamespace("namespace");
+```
 
 ### > .initModuleByNamespace( "nameSpace", params )
 ----
 
 Using that method you will run the called module using `_namespace`.
 
-
+```javascript
     SSP.applyByNamespace("nameSpace", params);
-
+```
     
