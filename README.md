@@ -5,10 +5,11 @@ The Simple Singleton Pattern
 
 ## Team
 
-Dennis Calazans | Rodolfo Dias 
-:------------:  | :-------------: |
-<a href="https://github.com/denniscalazans">![Dennis Calazans](https://avatars2.githubusercontent.com/u/28112?v=2&s=128)</a> | <a href="https://github.com/rmdias">![Rodolfo Dias](https://avatars2.githubusercontent.com/u/2057971?v=2&s=128)</a>|
-[@denniscalazans](https://github.com/denniscalazans)   | [@rmdias](https://github.com/rmdias)|
+Dennis Calazans | Leonardo Paiva | Rodolfo Dias | Thulio Philipe
+:------------:  | :-------------: | :-------------: |  :-------------: |
+<a href="https://github.com/denniscalazans">![Dennis Calazans](https://avatars2.githubusercontent.com/u/28112?v=2&s=128)</a> | <a href="https://github.com/leonardopaiva">![Leonardo Paiva](https://avatars2.githubusercontent.com/u/6975831?v=2&s=128)| <a href="https://github.com/rmdias">![Rodolfo Dias](https://avatars2.githubusercontent.com/u/2057971?v=2&s=128)</a> | <a href="https://github.com/thulioph">![Thulio Philipe](https://avatars2.githubusercontent.com/u/2343288?v=2&s=128)</a>|
+[@denniscalazans](https://github.com/denniscalazans)  | [@leonardopaiva](https://github.com/leonardopaiva)|[@rmdias](https://github.com/rmdias)| [@thulioph](https://github.com/thulioph)
+
 
 
 ## What's it?
