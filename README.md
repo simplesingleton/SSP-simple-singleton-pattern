@@ -33,7 +33,7 @@ var SSP = SSP || {};
 
 SSP.MyModule = {
   setUp: function() {
-    console.debug("My SSP module is runing!");
+    console.debug('My SSP module is runing!');
   }
 }
 ```
@@ -48,7 +48,7 @@ var SSP = SSP || {};
 
 SSP.MyModule.Child = {
   setUp: function() {
-    console.debug("My SSP module is runing!");
+    console.debug('My SSP module is runing!');
   }
 }
 ```
@@ -57,6 +57,8 @@ SSP.MyModule.Child = {
 <script src="js/SSP.js"></script>
 <script src="js/SSP.MyModule.js"></script>
 <script src="js/SSP.MyModule.Child.js"></script>
+<script>SSP.init();</script>
+
 ```
 
 ## Available Methods
@@ -86,7 +88,7 @@ SSP.MyModule = {
   
     console.debug(self._nameSpace);
   
-    // return -> "SSP.MyModule"
+    // return -> 'SSP.MyModule'
   }
 }
 ```
@@ -133,36 +135,44 @@ Using `SSP.readModule(Module);` you can run a module that's located in other mod
 
 SSP.readModule(SSP.MyModule);
 
-SSP.readModule(SSP.MyOtherModule.Child);
 ```
 
-### > .getByNamespace( "namespace" )
+### > .getByNamespace( 'namespace' )
 ----
 
-`SSP.getByNamespace( "namespace" )` is used to return a object module using your namespace in `string`. <br>
+`SSP.getByNamespace('namespace')` is used to return a object module using your namespace in `string`. <br>
 Using this method you don't will run the module called, this module only return the object module and the features it.
     
 ```javascript
-SSP.initModuleByNamespace("SSP.MyModule");
+SSP.getByNamespace('SSP.MyModule');
 
 return - > Object {setUp: function, Child: function}
 ```
 
-### > .applyByNamespace( "namespace" )
+### > .applyByNamespace( 'namespace' )
 ----
 
-SetUp's a Main method, it run aways when the father module is called.
+Using `SSP.applyByNamespace('namespace');` you can run a module that's located in other module/part from your application, but using `_namespace`. For example: 
+
 
 ```javascript
-SSP.getByNamespace("namespace");
+SSP.applyByNamespace('SSP.MyModule');
 ```
 
-### > .initModuleByNamespace( "nameSpace", params )
+### > .initModuleByNamespace( 'nameSpace' )
 ----
 
 Using that method you will run the called module using `_namespace`.
 
 ```javascript
-SSP.applyByNamespace("nameSpace", params);
+SSP.initModuleByNamespace('SSP.MyModule');
 ```
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
     
