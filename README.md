@@ -16,7 +16,7 @@ Dennis Calazans | Leonardo Paiva | Rodolfo Dias | Thulio Philipe
 
 
 `Development > Organization > Good practices > Standards... ` <br><br>
-SSP is a easy way of modularize and organize your projetc. Bringing the idea of OOP to JS, but of simple way.<br><br>
+SSP is a easy way of modularize and organize your project. Bringing the idea of OOP to JS, but of simple way.<br><br>
 Using that you win:<br>
 
 + readability  <br>
