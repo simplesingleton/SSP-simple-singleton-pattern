@@ -25,6 +25,13 @@ Using that you win:<br>
 + reuse <br>
 + adaptability
 
+
+
+## Examples
+
+`Coming soon`
+
+
 ## SSP Usage
 
 ### Call the SSP file
