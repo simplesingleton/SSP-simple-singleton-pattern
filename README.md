@@ -12,12 +12,12 @@ Dennis Calazans | Leonardo Paiva | Rodolfo Dias | Thulio Philipe
 
 
 
-## What's it?
+## What is it?
 
 
 `Development > Organization > Good practices > Standards... ` <br><br>
-SSP is a easy way of modularize and organize your project. Bringing the idea of OOP to JS, but of simple way.<br><br>
-Using that you win:<br>
+SSP is a easy way to modularize and organize your project. Bringing the idea of OOP to JS, but in a simple way.<br><br>
+Using it you gain:<br>
 
 + readability  <br>
 + Understanding of the parties  <br>
@@ -92,7 +92,7 @@ SSP.MyModule.Child = {
 ### > _namespace
 ----
 
-All modules have a property called namespace that returning `string` the name of module.
+All modules have a property called namespace that returns `string` the name of the module.
 ```javascript
 
 var SSP = SSP || {};
@@ -111,13 +111,13 @@ SSP.MyModule = {
 ### > .init( )
 ----
 
-This method initialize all modules from your application. 
+This method initializes all modules from your application. 
 ```javascript
 
 SSP.init();
 ```   
 <br>
-Also is possible initialize a module per time calling by module name, and multiples modules using commas.
+It is also possible to initialize a module each time calling the module by name, and multiple modules using commas.
 ```javascript
 
 SSP.init(SSP.MyModule);
@@ -128,7 +128,7 @@ SSP.init(SSP.MyModule, SSP.MyOtherModule);
 ### > .setUp( )
 ----
 
-SetUp is a Main method. It run always when the father's module is called.
+SetUp is a Main method. It always runs when the father's module is called.
 ```javascript
 
 SSP.MyModule.setUp();
@@ -136,7 +136,7 @@ SSP.MyModule.setUp();
 ### > .delegate( scope, method )
 ----
 
-Using this method, you can create an anonymous function able to invoke a method inside an determined scope.
+Using this method, you can create an anonymous function able to invoke a method inside a determined scope.
 ```javascript
 
 SSP.delegate(scope, method);
@@ -156,7 +156,7 @@ SSP.readModule(SSP.MyModule);
 ----
 
 `SSP.getByNamespace('namespace')` is used to return a object module using your namespace in `string`. <br>
-Using this method you don't will run the module called, this module only return the object module and the features it.
+Using this method you don't run the module called, this module only returns the object module and the features.
     
 ```javascript
 SSP.getByNamespace('SSP.MyModule');
