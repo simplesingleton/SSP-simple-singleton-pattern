@@ -15,7 +15,15 @@ Dennis Calazans | Leonardo Paiva | Rodolfo Dias | Thulio Philipe
 ## What's it?
 
 
-`Comming`
+`Development > Organization > Good practices > Standards... ` <br><br>
+SSP is a easy way of modularize and organize your projetc. Bringing the idea of OOP to JS, but of simple way.<br><br>
+Using that you win:<br>
+
++ readability  <br>
++ Understanding of the parties  <br>
++ modularization <br>
++ reuse <br>
++ adaptability
 
 ## SSP Usage
 
@@ -121,7 +129,7 @@ SSP.MyModule.setUp();
 ### > .delegate( scope, method )
 ----
 
-SetUp's a Main method, it run aways when the father module is called.
+Using this method, you can create an anonymous function able to invoke a method inside an determined scope.
 ```javascript
 
 SSP.delegate(scope, method);
