@@ -154,7 +154,7 @@ Using this method you don't run the module called, this module only returns the 
 ```javascript
 SSP.getByNamespace('SSP.MyModule');
 
-return - > Object {setUp: function, Child: function}
+return - > Object {setUp: function, Child: Object}
 ```
 
 ### > .applyByNamespace( 'namespace' )
