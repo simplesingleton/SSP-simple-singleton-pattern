@@ -44,8 +44,6 @@ Using it you gain:<br>
 
 // SSP.MyModule.js
 
-var SSP = SSP || {};
-
 SSP.MyModule = {
   setUp: function() {
     console.debug('My SSP module is runing!');
@@ -57,9 +55,6 @@ SSP.MyModule = {
 ```javascript
 
 // SSP.MyModule.Child.js
-
-var SSP = SSP || {};
-    SSP.MyModule = SSP.MyModule || {};
 
 SSP.MyModule.Child = {
   setUp: function() {
@@ -94,8 +89,6 @@ SSP.MyModule.Child = {
 
 All modules have a property called namespace that returns `string` the name of the module.
 ```javascript
-
-var SSP = SSP || {};
 
 SSP.MyModule = {
   setUp: function() {
