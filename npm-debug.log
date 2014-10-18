@@ -1,0 +1,179 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'update',
+1 verbose cli   '-g',
+1 verbose cli   'generator-generator' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose url raw generator-generator
+5 verbose url resolving [ 'https://registry.npmjs.org/', './generator-generator' ]
+6 verbose url resolved https://registry.npmjs.org/generator-generator
+7 info trying registry request attempt 1 at 11:20:24
+8 verbose etag "EXM5EVKMK4GY35U0CZZ8Z5FVL"
+9 http GET https://registry.npmjs.org/generator-generator
+10 http 200 https://registry.npmjs.org/generator-generator
+11 silly registry.get cb [ 200,
+11 silly registry.get   { date: 'Wed, 27 Aug 2014 14:20:25 GMT',
+11 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+11 silly registry.get     etag: '"6MKM4PO1AD83D6LJW7798954K"',
+11 silly registry.get     'content-type': 'application/json',
+11 silly registry.get     'cache-control': 'max-age=60',
+11 silly registry.get     'content-length': '19043',
+11 silly registry.get     'accept-ranges': 'bytes',
+11 silly registry.get     via: '1.1 varnish',
+11 silly registry.get     age: '4185',
+11 silly registry.get     'x-served-by': 'cache-iad2125-IAD',
+11 silly registry.get     'x-cache': 'MISS',
+11 silly registry.get     'x-cache-hits': '0',
+11 silly registry.get     'x-timer': 'S1409149225.288953,VS0,VE99',
+11 silly registry.get     vary: 'Accept',
+11 silly registry.get     'keep-alive': 'timeout=10, max=50',
+11 silly registry.get     connection: 'Keep-Alive' } ]
+12 info outdated updating [ [ '/usr/local/lib',
+12 info outdated     'generator-generator',
+12 info outdated     '0.3.0',
+12 info outdated     '0.5.0',
+12 info outdated     '0.5.0',
+12 info outdated     '*' ] ]
+13 verbose install where,what [ '/usr/local/lib', [ 'generator-generator@0.5.0' ] ]
+14 verbose cache add [ 'generator-generator@0.5.0', null ]
+15 verbose cache add name=undefined spec="generator-generator@0.5.0" args=["generator-generator@0.5.0",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'generator-generator@0.5.0',
+16 verbose parsed url   path: 'generator-generator@0.5.0',
+16 verbose parsed url   href: 'generator-generator@0.5.0' }
+17 verbose cache add name="generator-generator" spec="0.5.0" args=["generator-generator","0.5.0"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '0.5.0',
+18 verbose parsed url   path: '0.5.0',
+18 verbose parsed url   href: '0.5.0' }
+19 verbose addNamed [ 'generator-generator', '0.5.0' ]
+20 verbose addNamed [ '0.5.0', '0.5.0' ]
+21 silly lockFile 8c3fc334-generator-generator-0-5-0 generator-generator@0.5.0
+22 verbose lock generator-generator@0.5.0 /Users/rodolfodias/.npm/8c3fc334-generator-generator-0-5-0.lock
+23 verbose registry.get generator-generator not expired, no request
+24 silly lockFile 5b826a4c-or-generator-generator-0-5-0-tgz https://registry.npmjs.org/generator-generator/-/generator-generator-0.5.0.tgz
+25 verbose lock https://registry.npmjs.org/generator-generator/-/generator-generator-0.5.0.tgz /Users/rodolfodias/.npm/5b826a4c-or-generator-generator-0-5-0-tgz.lock
+26 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-generator/-/generator-generator-0.5.0.tgz',
+26 verbose addRemoteTarball   'f9651720f2d2826fc585ab1289cdff202b69bcc4' ]
+27 info retry fetch attempt 1 at 11:20:25
+28 verbose fetch to= /var/folders/9c/scbz24kd0vb0_y4z5zm5jf740000gn/T/npm-14326-xVVNyBbN/1409149225481-0.48438699753023684/tmp.tgz
+29 http GET https://registry.npmjs.org/generator-generator/-/generator-generator-0.5.0.tgz
+30 http 200 https://registry.npmjs.org/generator-generator/-/generator-generator-0.5.0.tgz
+31 verbose tar unpack /var/folders/9c/scbz24kd0vb0_y4z5zm5jf740000gn/T/npm-14326-xVVNyBbN/1409149225481-0.48438699753023684/tmp.tgz
+32 silly lockFile 3ab6c208-enerator-generator-0-5-0-package tar:///Users/rodolfodias/.npm/generator-generator/0.5.0/package
+33 verbose lock tar:///Users/rodolfodias/.npm/generator-generator/0.5.0/package /Users/rodolfodias/.npm/3ab6c208-enerator-generator-0-5-0-package.lock
+34 silly lockFile 93b5e184-5481-0-48438699753023684-tmp-tgz tar:///var/folders/9c/scbz24kd0vb0_y4z5zm5jf740000gn/T/npm-14326-xVVNyBbN/1409149225481-0.48438699753023684/tmp.tgz
+35 verbose lock tar:///var/folders/9c/scbz24kd0vb0_y4z5zm5jf740000gn/T/npm-14326-xVVNyBbN/1409149225481-0.48438699753023684/tmp.tgz /Users/rodolfodias/.npm/93b5e184-5481-0-48438699753023684-tmp-tgz.lock
+36 silly gunzTarPerm modes [ '755', '644' ]
+37 silly gunzTarPerm extractEntry package.json
+38 silly gunzTarPerm extractEntry README.md
+39 silly gunzTarPerm extractEntry app/index.js
+40 silly gunzTarPerm extractEntry app/USAGE
+41 silly gunzTarPerm extractEntry app/templates/README.md
+42 silly gunzTarPerm extractEntry app/templates/test-app.js
+43 silly gunzTarPerm extractEntry app/templates/_package.json
+44 silly gunzTarPerm extractEntry app/templates/_travis.yml
+45 silly gunzTarPerm extractEntry app/templates/app/index.js
+46 silly gunzTarPerm extractEntry app/templates/app/templates/_bower.json
+47 silly gunzTarPerm extractEntry app/templates/app/templates/_package.json
+48 silly gunzTarPerm extractEntry app/templates/editorconfig
+49 silly gunzTarPerm extractEntry app/templates/gitattributes
+50 silly gunzTarPerm extractEntry app/templates/gitignore
+51 silly gunzTarPerm extractEntry app/templates/jshintrc
+52 silly gunzTarPerm extractEntry subgenerator/index.js
+53 silly gunzTarPerm extractEntry subgenerator/USAGE
+54 silly gunzTarPerm extractEntry subgenerator/templates/index.js
+55 silly gunzTarPerm extractEntry subgenerator/templates/test-subgenerator.js
+56 silly gunzTarPerm extractEntry subgenerator/templates/templates/somefile.js
+57 silly lockFile 3ab6c208-enerator-generator-0-5-0-package tar:///Users/rodolfodias/.npm/generator-generator/0.5.0/package
+58 silly lockFile 3ab6c208-enerator-generator-0-5-0-package tar:///Users/rodolfodias/.npm/generator-generator/0.5.0/package
+59 silly lockFile 93b5e184-5481-0-48438699753023684-tmp-tgz tar:///var/folders/9c/scbz24kd0vb0_y4z5zm5jf740000gn/T/npm-14326-xVVNyBbN/1409149225481-0.48438699753023684/tmp.tgz
+60 silly lockFile 93b5e184-5481-0-48438699753023684-tmp-tgz tar:///var/folders/9c/scbz24kd0vb0_y4z5zm5jf740000gn/T/npm-14326-xVVNyBbN/1409149225481-0.48438699753023684/tmp.tgz
+61 silly lockFile 5b826a4c-or-generator-generator-0-5-0-tgz https://registry.npmjs.org/generator-generator/-/generator-generator-0.5.0.tgz
+62 silly lockFile 5b826a4c-or-generator-generator-0-5-0-tgz https://registry.npmjs.org/generator-generator/-/generator-generator-0.5.0.tgz
+63 silly lockFile 8c3fc334-generator-generator-0-5-0 generator-generator@0.5.0
+64 silly lockFile 8c3fc334-generator-generator-0-5-0 generator-generator@0.5.0
+65 silly resolved [ { name: 'generator-generator',
+65 silly resolved     version: '0.5.0',
+65 silly resolved     description: 'Generator Generator for Yeoman',
+65 silly resolved     keywords: [ 'yeoman-generator', 'generator', 'inception' ],
+65 silly resolved     homepage: 'https://github.com/yeoman/generator-generator',
+65 silly resolved     bugs: { url: 'https://github.com/yeoman/generator-generator/issues' },
+65 silly resolved     author:
+65 silly resolved      { name: 'Pascal Hartig',
+65 silly resolved        email: 'phartig@rdrei.net',
+65 silly resolved        url: 'http://yeoman.io' },
+65 silly resolved     main: 'app/index.js',
+65 silly resolved     repository:
+65 silly resolved      { type: 'git',
+65 silly resolved        url: 'https://github.com/yeoman/generator-generator.git' },
+65 silly resolved     scripts: { test: 'mocha' },
+65 silly resolved     dependencies:
+65 silly resolved      { chalk: '^0.5.0',
+65 silly resolved        github: '^0.2.1',
+65 silly resolved        'npm-name': '^0.2.0',
+65 silly resolved        superb: '^1.0.0',
+65 silly resolved        'yeoman-generator': '^0.17.3',
+65 silly resolved        yosay: '^0.3.0' },
+65 silly resolved     devDependencies: { mocha: '^1.21.4', mockery: '^1.4.0' },
+65 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+65 silly resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+65 silly resolved     licenses: [ [Object] ],
+65 silly resolved     files: [ 'app', 'subgenerator' ],
+65 silly resolved     readme: '# generator-generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-generator.svg?branch=master)](https://travis-ci.org/yeoman/generator-generator)\n\n> Yeoman generator for Yeoman generators  \n> Scaffolds out a new basic Yeoman generator with some sensible defaults.\n\nMaintainer: [Pascal Hartig](https://github.com/passy)\n\n![Yo dawg, I heard you like generators?](http://i.imgur.com/2gqiift.jpg)\n\n\n## Getting started\n\n- Install: `npm install -g generator-generator`\n- Run: `yo generator`\n\nIf during generation you get an error like `API rate limit exceeded`, you need to log in to GitHub\nand [create a new API token](https://github.com/settings/tokens/new), then add:\n```bash\nexport GITHUB_TOKEN=\'YOUR_NEW_TOKEN\'\n```\nto your `.bashrc`, `.zshrc`, `.profile` or another file that is run on shell initialization. In new terminal shells\nyou shouldn\'t see this error anymore.\n\n\n## Commands\n\n* `yo generator` shows a wizard for generating a new generator\n* `yo generator:subgenerator NAME` generates a subgenerator with the name NAME\n\n\n## What do you get?\n\nScaffolds out a complete project directory structure for you:\n\n    .\n    ├── app\n    │   ├── index.js\n    │   └── templates\n    │       ├── editorconfig\n    │       └── jshintrc\n    ├── .editorconfig\n    ├── .gitattributes\n    ├── .gitignore\n    ├── .jshintrc\n    ├── LICENSE\n    ├── package.json\n    ├── README.md\n    └── test\n        ├── test-creation.js\n        └── test-load.js\n\n\n## Changelog\n\n* 0.3.0\n    * Updated for generator 0.13.0.\n    * Added yo peer dependency.\n\n* 0.2.2\n    * Updated dependencies.\n\n* 0.2.1\n    * The name specified in the prompt is now used in `package.json`.\n    * `generator-generator` officially replaced the built-in generator that was\n      bundled with yo.\n\n* 0.2\n    * Added subgenerator for subgenerators\n    * Generated generator now generates package.json, component.json and\n      installs them by default.\n\n* 0.1.1\n    * Upgraded mocha to 1.9.0\n    * Include `.travis.yml`\n\n\n## Contributing\n\nSee the [contribution docs](https://github.com/yeoman/yeoman/blob/master/contributing.md).\n\nWhen submitting an issue, please follow [the\nguidelines](https://github.com/yeoman/yeoman/blob/master/contributing.md#issue-submission).\nEspecially important is to make sure Yeoman is up-to-date, and providing the\ncommand or commands that cause the issue.\n\n\n## License\n\nMIT © Pascal Hartig <phartig@rdrei.net> and other contributors\n',
+65 silly resolved     readmeFilename: 'README.md',
+65 silly resolved     _id: 'generator-generator@0.5.0',
+65 silly resolved     _shasum: 'f9651720f2d2826fc585ab1289cdff202b69bcc4',
+65 silly resolved     _from: 'generator-generator@0.5.0',
+65 silly resolved     _resolved: 'https://registry.npmjs.org/generator-generator/-/generator-generator-0.5.0.tgz' } ]
+66 info install generator-generator@0.5.0 into /usr/local/lib
+67 info installOne generator-generator@0.5.0
+68 info /usr/local/lib/node_modules/generator-generator unbuild
+69 info preuninstall generator-generator@0.3.0
+70 info uninstall generator-generator@0.3.0
+71 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-generator@0.3.0
+72 info postuninstall generator-generator@0.3.0
+73 info /usr/local/lib/node_modules/generator-generator unbuild
+74 info preuninstall generator-generator@0.3.0
+75 info uninstall generator-generator@0.3.0
+76 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-generator@0.3.0
+77 info postuninstall generator-generator@0.3.0
+78 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/generator-generator'
+78 error error rolling back  generator-generator@0.5.0 { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-generator']
+78 error error rolling back   errno: 3,
+78 error error rolling back   code: 'EACCES',
+78 error error rolling back   path: '/usr/local/lib/node_modules/generator-generator' }
+79 error Error: EACCES, unlink '/usr/local/lib/node_modules/generator-generator'
+79 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-generator']
+79 error   errno: 3,
+79 error   code: 'EACCES',
+79 error   path: '/usr/local/lib/node_modules/generator-generator' }
+80 error Please try running this command again as root/Administrator.
+81 error System Darwin 14.0.0
+82 error command "node" "/usr/local/bin/npm" "update" "-g" "generator-generator"
+83 error cwd /Users/rodolfodias/Desktop/SSP-simple-singleton-pattern
+84 error node -v v0.10.28
+85 error npm -v 1.4.9
+86 error path /usr/local/lib/node_modules/generator-generator
+87 error code EACCES
+88 error errno 3
+89 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/generator-generator'
+90 verbose exit [ 3, true ]

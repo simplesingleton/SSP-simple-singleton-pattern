@@ -142,7 +142,6 @@ Using `SSP.readModule(Module);` you can run a module that's located in other mod
 ```javascript
 
 SSP.readModule(SSP.MyModule);
-
 ```
 
 ### > .getByNamespace( 'namespace' )

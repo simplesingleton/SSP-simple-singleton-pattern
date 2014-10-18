@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Todo • SSP</title>
+    <link rel="stylesheet" href="css/base.css">
+ </head>
+  <body>
+    <section id="todoapp">
+      <header id="header">
+        <h1>Todo SSP</h1>
+        <form id="todo-form">
+          <input id="new-todo" placeholder="What needs to be done?" autofocus="">
+        </form>
+      </header>
+      <section id="main">
+        <input id="toggle-all" type="checkbox" ng-model="allChecked" ng-click="markAll(allChecked)" class="ng-pristine ng-valid">
+        <label for="toggle-all">Mark all as complete</label>
+      </section>
+      <footer id="footer">
+        <span id="todo-count">
+          <strong>0 </strong> item left
+        </span>
+        <button id="clear-completed">Clear completed (0)</button>
+      </footer>
+    </section>
+    <footer id="info">
+      <p>Credits:
+        <a href="http://rmdias.com">Rodolfo Dias</a> and
+        <a href="http://denniscalazans.com">Dennis Calazans</a>.
+      </p>
+      <p>powered by <a href="http://todomvc.com">TodoMVC</a></p>
+    </footer>
+    <script src="SSP.js"></script>
+    <script src="SSP.Todo.js"></script>
+    <script src="SSP.Todo.Requests.js"></script>
+    <script>SSP.init();</script>
+  </body>
+</html>
