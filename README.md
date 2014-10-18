@@ -29,6 +29,8 @@ Using it you gain:<br>
 
 ## Examples
 
++ [Todo SSP](https://github.com/simplesingleton/SSP-simple-singleton-pattern/tree/master/examples/todo-app)
+
 `Coming soon`
 
 
