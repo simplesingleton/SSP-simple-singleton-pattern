@@ -17,10 +17,10 @@ SSP._nameSpace = "SSP";
 /**
  * Method delegation
  *
- * Using this method, 
- * you can create an anonymous function able to invoke a method 
+ * Using this method,
+ * you can create an anonymous function able to invoke a method
  * inside an determined scope
- * 
+ *
  * @param  {Object} scope  Scope Object
  * @param  {function} method The method that will be invoked
  * @return {function}        Delegated method
@@ -36,30 +36,32 @@ SSP.delegate = function(scope, method) {
     }
 
     return function() {
-      method.apply(scope, methodArguments)
+      method.apply(scope, methodArguments);
     }
   } else {
-    return function() { 
+    return function() {
       method.apply(scope,arguments);
     };
   }
-}
+};
 
 /**
  * Initialize all (arguments.length == 0) or several modules under SSP
- * @param  object [Module,[...]] 
+ * @param  object [Module,[...]]
  * @return void
  */
 SSP.init = function(Module) {
   var modulesLength = arguments.length;
-  
-  if(Module !== undefined && Module !== SSP)
-    SSP.setUp();
 
-  if(modulesLength == 0 || modulesLength == 1)
+  if(Module !== undefined && Module !== SSP) {
+    SSP.setUp();
+  }
+
+  if(modulesLength === 0 || modulesLength === 1) {
     this.readModule(Module || SSP);
-  else if(modulesLength > 1)
+  } else if(modulesLength > 1) {
     SSP.readModule.apply(this, arguments);
+  }
 };
 
 //Main method
@@ -79,16 +81,16 @@ SSP.readModule = function(Module) {
 
   if(typeof Module != "object")
     return false;
-  
+
   if(Module.hasOwnProperty('setUp') && typeof Module.setUp == "function")
     Module.setUp();
   else
     return false;
-  
+
   for(node in Module) {
     if(Module.hasOwnProperty(node) === true) {
       if(Module[node] !== null && typeof Module[node] == "object") {
-        
+
         //Auxiliar function to recover parent Module
         Module[node]['parent'] = function() {
           return Module;
@@ -111,7 +113,7 @@ SSP.readModule = function(Module) {
  */
 SSP.initModuleByNamespace = function(namespace) {
   var argumentsLength, iArguments, argumentsArray;
-  
+
   argumentsArray = [];
 
   for(iArguments = 0; iArguments < argumentsLength; iArguments++)
@@ -132,7 +134,7 @@ SSP.getByNamespace = function(namespace) {
 
   if(spaces.shift() != "SSP")
     return null;
-  
+
   spacesLength = spaces.length;
 
   target = this;
@@ -169,8 +171,9 @@ SSP.applyByNamespace = function(nameSpace, params) {
 
   target = scopes.pop();
 
-  if(typeof target == 'function')
+  if(typeof target === 'function') {
     return target.apply(scopes.pop(), params || []);
-  else
+  } else {
     return target;
+  }
 }
